@@ -10,7 +10,6 @@ export default function LoginPage() {
   const [error, setError] = useState("")
   const [success, setSuccess] = useState("")
 
-  // Pre-filled form data
   const [formData, setFormData] = useState({
     email: "",
     name: "ajay singh",
